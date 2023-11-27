@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:aquamarine;
+        }
+        .container {
+            height: 95vh;
+            width: 97vw;
+            
+            display: flex;
+            gap: 20px 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+            overflow:hidden;
+        }
+
+        .top h2 {
+            padding-left: 45%;
+            font-size: 25px;
+            color: brown;
+            font-weight: bold;
+        }
+
+        .item {
+            height: 300px;
+            width: 400px;
+            
+        }
+
+        .item img {
+            height: 300px;
+            width: 400px;
+
+        }
+        .item img:hover{
+            scale:1.05;
+            border-radius:10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <h2>Image Gallery</h2>
+    </div>
+    <div class="container">
+
+
+        <div class="item">
+            <img
+                src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?size=626&ext=jpg&ga=GA1.1.1803636316.1700956800&semt=sph">
+        </div>
+        <div class="item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg/1200px-Altja_j%C3%B5gi_Lahemaal.jpg">
+        </div>
+        <div class="item">
+            <img src="https://t3.ftcdn.net/jpg/04/15/69/72/360_F_415697290_zBlJFddKioqUgBBlebfKHHd9QQNJadQQ.jpg">
+        </div>
+        <div class="item">
+            <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_960_720.jpg ">
+        </div>
+        <div class="item">
+            <img src=" https://t3.ftcdn.net/jpg/05/35/47/38/360_F_535473874_OWCa2ohzXXNZgqnlzF9QETsnbrSO9pFS.jpg">
+        </div>
+        <div class="item">
+            <img src=" https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3drNjUwMDI3NTMtaW1hZ2Uta3A2Ym1od3QuanBn.jpg">
+        </div>
+    </div>
+
+</body>
+
+</html>
